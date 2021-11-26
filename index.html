@@ -15,6 +15,7 @@
                     text-align: center;
                     margin: 20px auto;
                     border-radius: 50px;
+                    line-height: 100px;
                 }
             #second
                 {
@@ -26,6 +27,7 @@
                     text-align: center;
                     border-radius: 50px;
                     margin: 0 auto;
+                    line-height: 100px;
                 }
             h1,h2
                 {
@@ -34,12 +36,21 @@
                     font: italic 700 50px/1.5 'Times New Roman', Times, serif;
                     text-transform: uppercase;
                     /* text-align: center; */
-                    line-height: 37.5px;
                 }
             body
                 {
                     /* background-image: url(first.jpg); */
                     background-color: bisque;
+                }
+            .list
+                {
+                    width: 100px;
+                    height: 50px;
+                    border: 5px solid black;
+                    text-align: center;
+                    line-height: 50px;
+                    list-style-type: none;
+                    float: left;
                 }
         </style>
     </head>
@@ -48,9 +59,9 @@
         <div id="second"><h2>coffee's menu</h2></div>
         <ul>
             <li><div class="list"><a href="americano.html">americano</a></div></li>
-            <li><div><a href="coffee.html">coffee</a></div></li>
-            <li><div><a href="ade.html">ade</a></div></li>
-            <li><div><a href="smoothie.html">smoothie</a></div></li>
+            <li><div class="list"><a href="coffee.html">coffee</a></div></li>
+            <li><div class="list"><a href="ade.html">ade</a></div></li>
+            <li><div class="list"><a href="smoothie.html">smoothie</a></div></li>
         </ul>
         <p><a href="index.html">☞홈으로</a></p>
     </body>
