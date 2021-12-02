@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>COFFEINE</title>
         <style>
-            *
+           *
                 {
                     margin: 0;
                     padding: 0;
@@ -39,24 +39,14 @@
                     border-radius: 20px;
                     border: 10px solid black;
                 }
-            body
-                {
-                    /* background-image: url(first.jpg); */
-                    background-color: bisque;
-                }
-            #wrap
-                {
-                    margin: 0 auto;
-                    text-align: center;
-                }
             .last
                 {
                     display: inline-block;
                     margin: 0 auto;
                     color: black;
                     background-color: black;
-                    text-align: center;
                     border-radius: 20px;
+                    overflow: hidden;
                 }
             .list
                 {
@@ -69,6 +59,14 @@
                     border: 5px solid white;
                     border-radius: 20px;
                     font-weight: 900;
+                }
+            body
+                {
+                    background-color: bisque;
+                }
+            #wrap
+                {
+                    text-align: center;
                 }
             a
                 {
@@ -86,8 +84,9 @@
         </style>
     </head>
     <body>
-        <div><h1>coffeine</h1></div>
-        <div class="second"><h2>coffee's menu</h2></div>
+        <h1>coffeine</h1>
+        <h2 class="second">coffee's menu</h2>
+
         <div id="wrap">
             <ul class="last">
                 <li><div class="list"><a href="americano.html">AMERICANO</a></div></li>
@@ -96,8 +95,10 @@
                 <li><div class="list"><a href="smoothie.html">SMOOTHIE</a></div></li>
             </ul>
         </div>
+
         <div class="home">
             <p><a href="index.html">☞홈으로</a></p>
         </div>
+
     </body>
 </html>
