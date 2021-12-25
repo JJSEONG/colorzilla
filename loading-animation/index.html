@@ -20,6 +20,8 @@
                 padding-top: 150px;
             }
 
+            /* 2초동안 깜빡임을 무한반복하는 3개의 점 */
+            /* 1번째 점 */
             @keyframes one {
                 0% {opacity: 0;}
                 15% {opacity: 0;}
@@ -32,6 +34,20 @@
                animation-duration: 2s;
                animation-iteration-count: infinite;
            }
+           /* 2번째 점 */
+           @keyframes two {
+               0% {opacity: 0;}
+               65% {opacity: 0;}
+               75% {opacity: 1;}
+               100% {opacity: 1;}
+           }
+
+           .dot2 {
+               animation-name : two;
+               animation-duration: 2s;
+               animation-iteration-count: infinite;
+           }
+
 
         </style>
     </head>
