@@ -1,0 +1,104 @@
+/*초기화*/
+* 
+    {
+        margin: 0;
+        padding: 0;
+    }
+li
+    {
+        list-style: none;
+    }
+a   
+    {
+        text-decoration: none;
+        color: inherit; /* inherit : 부모의 속성값을 상속받겠다. */
+    }
+
+
+body
+    {
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: Arial, sans-serif;
+        color: #303030
+    }
+
+/*Top*/
+.top
+    {
+        width: 900px;
+        height: 120px;
+        margin: 10px auto;
+        background-color: #ddd;
+    }
+.logo
+    {
+        float: left;
+        margin-left: 20px;
+        margin-top: 21px;
+    }
+.menu
+    {
+        float: right;
+        margin-top: 80px;
+    }
+.list
+    {
+        display: inline-block;
+        margin: 0 10px;
+    }
+/* Content */
+.content
+    {
+        width: 900px;
+        margin: 0 auto;
+        background-color: #777;
+        overflow: hidden;
+    }
+
+/* Left */
+.left
+    {
+        width: 700px;
+        float: left;
+        background-color: #eee;
+    }
+.con
+    {
+        width: 700px;
+        padding: 25px;
+        margin-bottom: 10px;
+        background-color: #ddd;
+        box-sizing: border-box;
+    }
+.bullet
+    {
+        list-style: disc;
+        margin-left: 18px;
+    }
+
+/* Right */
+.right
+    {
+        width: 190px;
+        float: right;
+        background-color: #ddd;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+.btn
+    {
+        width: 140px;
+        height: 40px;
+        background-color: cornflowerblue;
+        display: block;
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 14px;
+        text-align: center;
+        line-height: 40px;
+    }
+.r-tit
+    {
+        margin: 10px 0;
+    }

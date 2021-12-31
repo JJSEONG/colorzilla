@@ -4,116 +4,73 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>colozilla</title>
-        <style>
-            #wrap1
-                {
-                    width: 900px;
-                    height: 120px;
-                    background-color: lightgray;
-                }
-            .logo
-                {
-                    margin-left: 20px;
-                    float: left;
-                }
-            .text1
-                {
-                    float: left;
-                    margin-top: 80px;
-                }
-            body
-                {
-                    background-color: gray;
-                }
-            #wrap2
-                {
-                    width: 920px;
-                    background-color: black;
-                }
-            .con1
-                {
-                    width: 700px;
-                    float: left;
-                    background-color: black;
-                }
-            .con2
-                {
-                    width: 190px;
-                    float: right;
-                    background-color: lightgray;
-                    text-align: left;
-                    padding-left: 20px;
-                }
-            body
-                {
-                    font: 16px/1.5 Arial, sans-serif;
-                    color: #303030;
-                }
-            .button
-                {
-                   width:150px;
-                   height:50px;
-                   background-color: lightskyblue;
-                   border-radius: 10px;
-                   margin: 0 auto;
-                   line-height: 50px;
-                }
-            .text2
-                {
-                    padding: 25px;
-                    border: 1px solid black;
-                    margin: 0 0 10px 0;
-                    background-color: red;
-                }
-            .con3
-                {
-                    padding: 10px auto;
-                }
-        </style>
+        <title>colorzilla</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div id="wrap1">
-            <div class="logo"><h1><img src="colorzilla/logo.png" alt=""></h1></div>
-            <p class="text1">For Firefox</p>
-            <p class="text1">For Chrome</p>
-            <p class="text1">For Gradient Generator</p>
+        <!--Top-->
+        <div class="top">
+            <h1 class="logo"><a href="#"><img src="./logo.png" alt="colorzilla"></a></h1>
+            <ul class="menu">
+                <li class="list"><a href="#">For Firefox</a></li>
+                <li class="list"><a href="#">For Chrome</a></li>
+                <li class="list"><a href="#">Gradient Generator</a></li>
+            </ul>
         </div>
-        <div id="wrap2">
-            <div class="con1">
-                <div class="text2">
+        <!--//Top-->
+
+        <!--Content-->
+        <div class="content">
+            
+            <!--Left-->
+            <div class="left">
+                <div class="con">
                     <h2>ColorZilla for Chrome</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="text2">
+
+                <div class="con">
                     <h2>Chrome permissions</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="text2">
+
+                <div class="con">
                     <h2>What's new</h2>
                     <h3>ColorZilla v2.0</h3>
                     <ul>
-                        <li>New sampling modes....</li>
-                        <li>New sampling modes....</li>
-                        <li>New sampling modes....</li>
-                        <li>New sampling modes....</li>
-                        <li>New sampling modes....</li>
+                        <li class="bullet">New sampling modes....</li>
+                        <li class="bullet">New sampling modes....</li>
+                        <li class="bullet">New sampling modes....</li>
+                        <li class="bullet">New sampling modes....</li>
+                        <li class="bullet">New sampling modes....</li>
                     </ul>
                 </div>
-                <div class="text2">
+
+                <div class="con">
                     <h2>Feedback</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="con">
                     <h2>Acknowledgements</h2>
-                    <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</P>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
-            <div class="con2">
-                <div><p class="button">Install ColorZilla 2.0</p></div>
-                <h3>Documentation</h3>
-                <p>Features<br>Help<br>Screenshots<br>Version history</p>
+            <!--//Left-->
+
+            <!--Right-->
+            <div class="right">
+                <a href="#" class="btn">Install ColorZilla 2.0</a>
+                <h3 class="r-tit">Documentation</h3>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Version history</a></li>
             </div>
+            <!--//Right-->
+
         </div>
+        <!--//Content-->
     </body>
 </html>
